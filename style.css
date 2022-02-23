@@ -53,3 +53,7 @@ h1{
 #box-3{
     background-color: rgba(165, 68, 214, 0.397);
 }
+.third-step{
+    display: flex;
+    margin-top: 10%;
+}
