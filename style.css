@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 5%;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -11,6 +11,11 @@ h1{
 }
 .container{
     display: flex;
+}
+#line{
+    border-left: 4px solid tomato;
+    border-image-slice: 1;
+    padding: 7px;
 }
 .half-width{
     width: 50%;
@@ -57,11 +62,16 @@ h1{
     display: flex;
     margin-top: 10%;
 }
+.feedback-section{
+    color: black;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
 footer{
     height: 100px;
+    padding: 10px;
     color: white;
     text-align: center;
-    padding: 10px;
-    margin-top: 100px;
     background-color: black;
 }
